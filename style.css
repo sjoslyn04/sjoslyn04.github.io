@@ -1,0 +1,715 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 2em;
+}
+
+@media all and (min-width: 800px) {
+
+
+@font-face {
+  font-family: Instrument Sans;
+  src: url(fonts/InstrumentSans-VariableFont_wdth\,wght.ttf);
+}
+
+.header {
+  background-color: #57B0E3;
+}
+
+.logo {
+  float: left;
+  width: 15%;
+  padding: 20px 0 0 20px;
+}
+
+.nav {
+  overflow: hidden;
+  padding: 65px 30px;
+}
+
+.nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Instrument Sans;
+  margin: 0 40px;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.bannerdiv {
+  clear: left;
+  background-color: #DA7C57;
+}
+
+.welcome {
+  background-color: #DA7C57;
+  font-family: Instrument Sans;
+  color: #EAE2DD;
+  text-align: center;
+  padding: 60px 60px 60px 60px;
+}
+
+.p1 {
+  font-size: 40px;
+  line-height: 1.5em;
+  margin-bottom: 60px;
+}
+
+.donate-button {
+  background-color: #57B0E3;
+  color: white;
+  font-size: 25px;
+  border-radius: 60px;
+  padding: 30px 40px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  width: 220px;
+}
+
+.donate-button:hover {
+  color: black;
+}
+
+.heading1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Instrument Sans;
+  background-color: #EAE2DD;
+  color: #DA7C57;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* V used float, cannot align paragraph and image horizontally V */
+/* put text and image in separate div classes, float left and right or just float right?*/
+.s1 {
+  background-color: #DA7C57;
+  overflow: hidden;
+}
+
+.mom {
+  float: right;
+  width: 50%;
+}
+
+.p2 {
+  color: #EAE2DD;
+  font-size: 33px;
+  font-family: Instrument Sans;
+  line-height: 1.2em;
+  padding: 5%;
+  float: left;
+  width: 40%;
+}
+
+/* V flexboxes V */
+
+.s2 {
+  overflow: hidden;
+  background-color: #EAE2DD;
+}
+
+.obama {
+  float: left;
+  width: 50%;
+}
+
+.p3,
+.p4 {
+  color: #DA7C57;
+  font-size: 20px;
+  font-family: Instrument Sans;
+  line-height: 1.6em;
+  float:right;
+  width: 40%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+}
+
+
+
+/**/
+
+.kid {
+  max-width: 100%;
+  padding: 0px;
+  clear:both;
+}
+
+.kiddiv {
+  background-color: #EAE2DD;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Instrument Sans;
+  background-color: #DA7C57;
+  color: #EAE2DD;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+
+
+.p5,
+.p6 {
+  color: #DA7C57;
+  font-size: 23px;
+  font-family: Instrument Sans;
+  padding: 25px 40px 0px 50px;
+  margin-bottom: 60px;
+}
+
+.volunteer-button {
+  background-color: #57B0E3;
+  color: white;
+  font-size: 25px;
+  font-family: Instrument Sans;
+  border-radius: 50px;
+  padding: 30px 20px 30px 25px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  width: 250px;
+  text-align: center;
+}
+
+.volunteer-button:hover {
+  color: black;
+}
+
+/* thing (container?) below all your floats clear
+if you float right and left, clear both, if float left clear left, etc.
+
+if issues with padding and white lines, overflow hidden
+*/
+.nowisthetime {
+  background-color: #EAE2DD;
+  padding: 40px 10px 40px 10px;
+}
+
+.now_is_the_time {
+  clear: both;
+}
+
+.volunteerdiv {
+  text-align: center;
+}
+
+
+/**/
+
+.footerdiv {
+  background-color: #57B0E3;
+  padding: 30px;
+  color: white;
+  font-family: Instrument Sans;
+  overflow: hidden;
+}
+
+.signup-button {
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-family: Instrument Sans;
+  border-radius: 50px;
+  padding: 30px 15px 30px 15px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: 2px solid white;
+  border: 2px solid white;
+  width: 250px;
+  text-align: center;
+}
+/*float button container left*/
+
+.signup-button:hover {
+  color: black;
+}
+
+.signupsection {
+  float: left;
+  margin: 20px;
+}
+
+.h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.p7 {
+  border-radius: 30px;
+  background-color: white;
+  color: gray;
+  padding: 20px;
+}
+
+.buttonsection {
+  padding: 60px 0 0 0;
+}
+
+.smcopyrightsection {
+  float: right;
+}
+
+.socialmedia {
+  width: 150px;
+
+}
+
+
+/* first page end */
+
+
+
+
+
+.issues-header {
+  text-align: center;
+  font-size: 30px;
+  font-family: Instrument Sans;
+  background-color: #DA7C57;
+  color: #EAE2DD;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+
+}
+
+
+.issues-img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.issues-img-div {
+  clear: left;
+  overflow: hidden;
+  margin-bottom: -20px;
+}
+
+.issues-container {
+  width: 100%;
+}
+
+.housing-container {
+  float: left;
+  width: 45%;
+  font-family: Instrument Sans;
+  font-size: 20px;
+  background-color: #EAE2DD;
+  color: #DA7C57;
+  padding: 2.5%;
+  padding-bottom: 4.86%;
+}
+
+.water-container {
+  float: left;
+  width: 45%;
+  font-family: Instrument Sans;
+  font-size: 20px;
+  background-color: #DA7C57;
+  color: #EAE2DD;
+  padding: 2.5%;
+}
+
+.transparency-container {
+  float: left;
+  width: 45%;
+  font-family: Instrument Sans;
+  font-size: 20px;
+  background-color: #DA7C57;
+  color: #EAE2DD;
+  padding: 2.5%;
+  padding-bottom: 7.25%;
+}
+
+.fiscal-container {
+  float: left;
+  width: 45%;
+  font-family: Instrument Sans;
+  font-size: 20px; 
+  background-color: #EAE2DD;
+  color: #DA7C57;
+  padding: 2.5%;
+  }
+
+.clear {
+  clear: both;
+}
+
+  }
+
+
+
+
+
+/*MOBILE CODE*/
+
+
+
+
+
+@media all and (max-width: 500px) {
+
+  
+  @font-face {
+    font-family: Instrument Sans;
+    src: url(fonts/InstrumentSans-VariableFont_wdth\,wght.ttf);
+  }
+
+  .header {
+    background-color: #57B0E3;
+  }
+
+  .logo {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 10%;
+  }
+
+  .nav {
+    overflow: hidden;
+    padding: 5%;
+    margin-left: 3%;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Instrument Sans;
+    padding: 3.5%;
+    text-align: center;
+  }
+
+  .nav a:hover {
+    color: black;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .bannerdiv {
+    clear: left;
+    background-color: #DA7C57;
+  }
+
+  .welcome {
+    background-color: #DA7C57;
+    font-family: Instrument Sans;
+    color: #EAE2DD;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .p1 {
+    font-size: 25px;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+  }
+
+  .donate-button {
+    background-color: #57B0E3;
+    color: white;
+    font-size: 25px;
+    border-radius: 60px;
+    padding: 10%;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 80%;
+  }
+
+  .donate-button:hover {
+    color: black;
+  }
+
+  .heading1 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Instrument Sans;
+    background-color: #EAE2DD;
+    color: #DA7C57;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  
+  .s1 {
+    background-color: #DA7C57;
+    width: 100%;
+  }
+
+  .mom {
+    width: 100%;
+  }
+
+  .p2 {
+    color: #EAE2DD;
+    font-size: 20px;
+    font-family: Instrument Sans;
+    line-height: 1.5em;
+    padding: 10%;
+    width: 80%;
+  }
+
+  
+
+  .s2 {
+    overflow: hidden;
+    background-color: #EAE2DD;
+  }
+
+  
+
+  .p3,
+  .p4 {
+    color: #DA7C57;
+    font-size: 20px;
+    font-family: Instrument Sans;
+    line-height: 1.4em;
+    width: 80%;
+    padding-right: 5%;
+    padding-top: 2.5%;
+    padding: 10%;
+  }
+
+  .obama {
+    width: 100%;
+  }
+
+  /**/
+
+  .kid {
+    max-width: 100%;
+    padding: 0px;
+    clear:both;
+  }
+
+  .kiddiv {
+    background-color: #EAE2DD;
+  }
+
+  .heading2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: Instrument Sans;
+    background-color: #DA7C57;
+    color: #EAE2DD;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+  }
+
+
+
+  .p5,
+  .p6 {
+    color: #DA7C57;
+    font-size: 20px;
+    font-family: Instrument Sans;
+    margin: 5%;
+    margin-bottom: 20%;
+  }
+
+  .volunteer-button {
+    background-color: #57B0E3;
+    color: white;
+    font-size: 25px;
+    font-family: Instrument Sans;
+    border-radius: 50px;
+    padding: 10%;
+    cursor: pointer;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    width: 80%;
+    text-align: center;
+    
+  }
+
+  .volunteer-button:hover {
+    color: black;
+  }
+
+  /* thing (container?) below all your floats clear
+  if you float right and left, clear both, if float left clear left, etc.
+
+  if issues with padding and white lines, overflow hidden
+  */
+  .nowisthetime {
+    background-color: #EAE2DD;
+    padding: 5%;
+  }
+
+  .now_is_the_time {
+    clear: both;
+  }
+
+  .volunteerdiv {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+
+
+  /**/
+
+  .footerdiv {
+    background-color: #57B0E3;
+    padding: 8%;
+    color: white;
+    font-family: Instrument Sans;
+    overflow: hidden;
+  }
+
+  .signup-button {
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-family: Instrument Sans;
+    border-radius: 50px;
+    padding: 8%;
+    cursor: pointer;
+    box-shadow: none;
+    border: 2px solid white;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+  }
+  /*float button container left*/
+
+  .signup-button:hover {
+    color: black;
+  }
+
+  .signupsection {
+    float: left;
+    margin: 5%;
+    margin-bottom: 10%;
+  }
+
+  .h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .p7 {
+    border-radius: 30px;
+    background-color: white;
+    color: gray;
+    padding: 20px;
+  }
+
+  .smcopyrightsection {
+    text-align: center;
+  }
+
+  .socialmedia {
+    width: 100%;
+    padding-top: 5%;
+  }
+
+
+  /* first page end */
+
+
+
+
+
+  .issues-header {
+    text-align: center;
+    font-size: 15px;
+    font-family: Instrument Sans;
+    background-color: #DA7C57;
+    color: #EAE2DD;
+    padding: 5%;
+
+
+  }
+
+
+  .issues-img {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .issues-img-div {
+    overflow: hidden;
+    margin-bottom: -20px;
+  }
+
+  .issues-container {
+    width: 100%;
+  }
+
+  .housing-container {
+    width: 95%;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    background-color: #EAE2DD;
+    color: #DA7C57;
+    padding: 2.5%;
+  }
+
+  .water-container {
+    width: 95%;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    background-color: #DA7C57;
+    color: #EAE2DD;
+    padding: 2.5%;
+  }
+
+  .transparency-container {
+    width: 95%;
+    font-family: Instrument Sans;
+    font-size: 20px;
+    background-color: #EAE2DD;
+    color: #DA7C57;
+    padding: 2.5%;
+  }
+
+  .fiscal-container {
+    width: 95%;
+    font-family: Instrument Sans;
+    font-size: 20px; 
+    background-color: #DA7C57;
+    color: #EAE2DD;
+    padding: 2.5%;
+    }
+
+  .issuesp {
+    margin: 10%;
+  }
+  .issuesh {
+    margin: 10%;
+  }
+
+  
+  .clear {
+    clear: both;
+  }
+
+}
